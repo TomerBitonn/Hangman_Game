@@ -1,5 +1,8 @@
 MAX_TRIES = 6
 
+FILE_PATH = (r"text docs/hangman words.txt") 
+
+#add another \ to any exist \ to avoid syntax warning
 HANGMAN_ASCII_ART = ("""Welcome to the game Hangman!
   _    _                                         
  | |  | |                                        
@@ -10,8 +13,8 @@ HANGMAN_ASCII_ART = ("""Welcome to the game Hangman!
                       __/ |                      
                      |___/
 """)
-#add another \ to any exist \ to avoid syntax warning
 
+#dictionary with the hangman situations
 HANGMAN_PHOTOS = {
 1: """   
 x-------x

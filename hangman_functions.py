@@ -4,7 +4,7 @@ import constants
 
 def hangman_open_screen():
     print(constants.HANGMAN_ASCII_ART)
-    print( f"Number of tries: {constants.MAX_TRIES}")
+    print( f"Number of lives: {constants.MAX_TRIES}")
     print("\nLet's start!\n")
 
 
@@ -49,7 +49,7 @@ def try_update_letter_guessed(letter_guessed, old_letters_guessed, secret_word):
     elif (len(letter_guessed) >= 2) or (letter_guessed.isalpha() == False) \
     or (letter_guessed.lower() in old_letters_guessed):
         check_letter = False
-        print("X")
+        print("X\n")
         print(" -> ".join(sorted(old_letters_guessed)))
     return check_letter, old_letters_guessed
 
