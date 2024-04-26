@@ -4,15 +4,19 @@ import constants
 
 def main():
 
+    
     #variables
     old_letters_guessed = []
     num_of_tries = 1
+
     
     #open screen
     hangman_functions.hangman_open_screen()
 
+    
     index = int(input("Enter a random number: "))
     secret_word = hangman_functions.choose_word(constants.FILE_PATH, index)
+
     
     hangman_functions.print_hangman(num_of_tries)
     print(len(secret_word) * " _ ")
@@ -35,7 +39,6 @@ def main():
             hangman_functions.print_hangman(num_of_tries)
             print("\n")
             hangman_functions.show_hidden_word(secret_word, old_letters_guessed)
-            
             
         win_lose_check = hangman_functions.check_win(secret_word, old_letters_guessed)
         if (win_lose_check):
