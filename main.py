@@ -45,6 +45,7 @@ def main():
         if (win_lose_check):
             print("\nWOW YOU WIN!\n")
             num_of_tries = 7
+            
         elif (win_lose_check == False) and (num_of_tries == 7):
             print(f"\nYou LOSE!\n\nThe word is: '{secret_word}'\n")
                 
