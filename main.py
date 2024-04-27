@@ -24,6 +24,7 @@ def main():
     
     #game loop
     while (num_of_tries < 7):
+        
         letter_guessed = input("Guess a letter: ")
       
         bool_type, old_letters_guessed = hangman_functions.try_update_letter_guessed(letter_guessed, old_letters_guessed, secret_word)
