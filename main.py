@@ -4,23 +4,22 @@ import constants
 
 def main():
 
-    
     #variables
     old_letters_guessed = []
     num_of_tries = 1
-
     
     #open screen
     hangman_functions.hangman_open_screen()
-
+       
+    #secret word index
+    index = hangman_functions.get_index()
+    if index == 1:
+        index = 0
     
-    index = int(input("Enter a random number: "))
     secret_word = hangman_functions.choose_word(constants.FILE_PATH, index)
-
     
     hangman_functions.print_hangman(num_of_tries)
     print(len(secret_word) * " _ ")
-    
     
     #game loop
     while (num_of_tries < 7):
@@ -48,7 +47,6 @@ def main():
             
         elif (win_lose_check == False) and (num_of_tries == 7):
             print(f"\nYou LOSE!\n\nThe word is: '{secret_word}'\n")
-                
-    
+                    
 if __name__ == "__main__":
     main()

@@ -66,3 +66,14 @@ def check_win(secret_word, old_letters_guessed):
         return True
     else:
         return False
+    
+
+def get_index():
+    #get an index from the user and check if it's an integer    
+        while True:
+            index = input("Enter a random number: ")
+            try:
+                number = int(index)
+                return number
+            except ValueError:
+                print("Error: That's not a valid integer. Please try again.")
