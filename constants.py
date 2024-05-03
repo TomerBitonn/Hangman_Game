@@ -3,7 +3,7 @@ MAX_TRIES = 6
 FILE_PATH = (r"hangman words.txt") 
 
 #add another \ to any exist \ to avoid syntax warning
-HANGMAN_ASCII_ART = ("""Welcome to the game Hangman!
+HANGMAN_ASCII_ART = ("""Welcome to the game Hangman!\n
   _    _                                         
  | |  | |                                        
  | |__| | __ _ _ __   __ _ _ __ ___   __ _ _ __  
