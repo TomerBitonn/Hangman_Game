@@ -1,8 +1,8 @@
 MAX_TRIES = 6
 
-FILE_PATH = (r"hangman words.txt") 
+FILE_PATH = r"hangman words.txt"
 
-#add another \ to any exist \ to avoid syntax warning
+# add another \ to any exist \ to avoid syntax warning
 HANGMAN_ASCII_ART = ("""Welcome to the game Hangman!\n
   _    _                                         
  | |  | |                                        
@@ -14,47 +14,47 @@ HANGMAN_ASCII_ART = ("""Welcome to the game Hangman!\n
                      |___/
 """)
 
-#dictionary with the hangman situations
+# dictionary with the hangman situations
 HANGMAN_PHOTOS = {
-1: """   
+ 1: """
 x-------x
 """,
-2: """   
+ 2: """  
 x-------x
 |
 |
 |
 |
 |""",
-3: """     
-x-------x
-|       |
-|       0
-|
-|
-|""",
-4: """       
+ 3: """    
 x-------x
 |       |
 |       0
+|
+|
+|""",
+ 4: """     
+x-------x
+|       |
+|       0
 |       |
 |
 |""",
-5: """     
+ 5: """     
 x-------x
 |       |
 |       0
 |      /|\\
 |
 |""",
-6: """     
+ 6: """     
 x-------x
 |       |
 |       0
 |      /|\\
 |      /
 |""",
-7: """       
+ 7: """       
 x-------x
 |       |
 |       0
