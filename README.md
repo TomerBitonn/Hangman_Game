@@ -9,7 +9,7 @@ Hangman_Game/
 ├── main.py # Main file to run the game
 ├── hangman_functions.py # All reusable game functions
 ├── constants.py # Constants used throughout the game
-├── hangman_words.txt # Word bank for the game
+├── hangman words.txt # Word bank for the game
 ├── README.md # Project documentation (this file)
 ```
 
@@ -38,6 +38,6 @@ Validations for input and repeated guesses
 ASCII art for visual feedback
 
 ## 📝 Notes
-You can add more words to the ```hangman_words.txt``` file to increase difficulty.
+You can add more words to the ```hangman words.txt``` file to increase difficulty.
 
 The game ends when the user either guesses the word correctly or runs out of attempts.
