@@ -4,12 +4,14 @@ A classic **Hangman** game implemented in Python using clean code and modular de
 
 ## 📁 Project Structure
 
-hangman/
+```
+Hangman_Game/
 ├── main.py # Main file to run the game
 ├── hangman_functions.py # All reusable game functions
 ├── constants.py # Constants used throughout the game
 ├── hangman_words.txt # Word bank for the game
 ├── README.md # Project documentation (this file)
+```
 
 ## ▶️ How to Run
 
@@ -20,7 +22,7 @@ hangman/
 
 ```bash
 python main.py
-'''
+```
 
 🔧 Features
 Word bank loaded from a text file (hangman_words.txt)
