@@ -24,7 +24,7 @@ Hangman_Game/
 python main.py
 ```
 
-🔧 Features
+## 🔧 Features
 Word bank loaded from a text file (hangman_words.txt)
 
 Separation of logic using hangman_functions.py
@@ -37,7 +37,7 @@ Validations for input and repeated guesses
 
 ASCII art for visual feedback
 
-📝 Notes
+## 📝 Notes
 You can add more words to the hangman_words.txt file to increase difficulty.
 
 The game ends when the user either guesses the word correctly or runs out of attempts.
