@@ -20,6 +20,7 @@ hangman/
 
 ```bash
 python main.py
+'''
 
 🔧 Features
 Word bank loaded from a text file (hangman_words.txt)
